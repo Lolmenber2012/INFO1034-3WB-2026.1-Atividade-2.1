@@ -91,7 +91,7 @@ t.end_fill()
 #Espiral
 
 t.pu()
-t.goto(0,0)
+t.goto(-200,200)
 t.pd()
 
 
