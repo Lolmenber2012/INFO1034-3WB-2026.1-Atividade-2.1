@@ -65,7 +65,7 @@ t.goto(-200,-350)
 t.pd()
 
 t.begin_fill()
-t.fillcolor('green')
+t.fillcolor(color)
 for _ in range(8):
     t.fd(100)
     t.lt(45)
@@ -82,7 +82,7 @@ t.pd()
 
 
 t.begin_fill()
-t.fillcolor('cyan')
+t.fillcolor(color)
 for _ in range(12):
      t.fd(75)
      t.lt(30)
@@ -95,7 +95,7 @@ t.goto(-200,200)
 t.pd()
 
 
-t.color('black')
+t.color(color)
 t.speed(10) 
 for i in range(360):
     t.fd(i)
